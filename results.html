@@ -105,10 +105,10 @@
 </div>
 <h2>Closest Match: <span class="weight-300" id="ideology-label"></span></h2>
 <p>There's no closest match for now, so cope with the axes lmao</p>
-<p>Criticism ? Questions ? Ideas ? Feel free to harass me on discord ( Quark#0741 ) or fill my spam box ( beaulieu.renaud@gmail.com ) . </p>
+<p>You think your results should be integrated into the closest matches ? Send them to me on Discord ( Quark#0741 ) or on Gmail ( beaulieu.renaud@gmail.com ) . </p>
 <hr/>
 <img src="" id="banner">
-<button class="button" onclick="location.href='index.html';" style="background-color: #00b5ff;">Back</button> <br>
+<button class="button" onclick="location.href='index.html';" style="background-color: #0075ff;">Back</button> <br>
 <!-- Website visit statistics - no personal information is collected! -->
 <script type="text/javascript">
 var sc_project=11325211;
@@ -152,7 +152,7 @@ stats"></a></div></noscript>
     bpoliArray = ["Autocracy","Oligarchy","Bicameralism","Neutral","Representativism","Proportionalism","Direct Democracy"]
     bstatArray = ["Totalitarianism","Authoritarianism","Statism","Neutral","Liberalism","Libertarianism","Minarchism"]
     binduArray = ["Deep Ecologism","Environmentalism","Sustainabilitism","Neutral","Productivism","Industrialism","Unconcerned"]
-    blandArray = ["Common Land","Georgism","Land Value Tax","Neutral","Property Tax","Landed Property","Manorialism"]
+    blandArray = ["Manorialism","Landed Property","Property Tax","Neutral","Land Value Tax","Georgism","Common Land"]
     breliArray = ["State Atheism","Atheism","Secularism","Neutral","Spiritualism","Religion","Theocracy"]
     bnatiArray = ["Globalism","Internationalism","Diplomatism","Neutral","Patriotism","Nationalism","Chauvinism"]
     binteArray = ["Colonialism","Imperialism","Interventionism","Neutral","Non Interventionism","Isolationism","Pacifism"]
@@ -162,12 +162,12 @@ stats"></a></div></noscript>
 
     function setLabel(val,ary) {
         if (val > 100) { return "" } else
-        if (val > 90) { return ary[0] } else
-        if (val > 75) { return ary[1] } else
+        if (val > 85) { return ary[0] } else
+        if (val > 70) { return ary[1] } else
         if (val > 60) { return ary[2] } else
         if (val >= 40) { return ary[3] } else
-        if (val >= 25) { return ary[4] } else
-        if (val >= 10) { return ary[5] } else
+        if (val >= 30) { return ary[4] } else
+        if (val >= 15) { return ary[5] } else
         if (val >= 0) { return ary[6] } else
         	{return ""}
     }
@@ -239,16 +239,16 @@ stats"></a></div></noscript>
     ideodist = Infinity
     for (var i = 0; i < ideologies.length; i++) {
         dist = 0
-        dist += Math.pow(Math.abs(ideologies[i].stats.becon - free), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.bsoci - futu), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.bpoli - auto), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.bstat - auth), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.becon - free), 4)
+        dist += Math.pow(Math.abs(ideologies[i].stats.bsoci - futu), 4)
+        dist += Math.pow(Math.abs(ideologies[i].stats.bpoli - auto), 4)
+        dist += Math.pow(Math.abs(ideologies[i].stats.bstat - auth), 3)
         dist += Math.pow(Math.abs(ideologies[i].stats.bindu - envi), 2)
         dist += Math.pow(Math.abs(ideologies[i].stats.becon - land), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.bsoci - anti), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.bpoli - glob), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.bsoci - anti), 3)
+        dist += Math.pow(Math.abs(ideologies[i].stats.bpoli - glob), 4)
         dist += Math.pow(Math.abs(ideologies[i].stats.bstat - inte), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.bindu - acce), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.bindu - acce), 3)
         dist += Math.pow(Math.abs(ideologies[i].stats.bstat - elit), 2)
         dist += Math.pow(Math.abs(ideologies[i].stats.bindu - disu), 2)
         if (dist < ideodist) {
@@ -359,10 +359,10 @@ stats"></a></div></noscript>
         if (libe > 30) {ctx.fillText(libe + "%", 670, 597.5)}
 
         ctx.textAlign="center"
-        ctx.fillText("Economic Axis: " + document.getElementById("econ").innerHTML, 400, 175)
-        ctx.fillText("Social Axis: " + document.getElementById("soci").innerHTML, 400, 295)
-        ctx.fillText("Political Axis: " + document.getElementById("poli").innerHTML, 400, 415)
-        ctx.fillText("State Axis: " + document.getElementById("stat").innerHTML, 400, 535)
+        ctx.fillText("Economic Axis: " + document.getElementById("becon").innerHTML, 400, 175)
+        ctx.fillText("Social Axis: " + document.getElementById("bsoci").innerHTML, 400, 295)
+        ctx.fillText("Political Axis: " + document.getElementById("bpoli").innerHTML, 400, 415)
+        ctx.fillText("State Axis: " + document.getElementById("bstat").innerHTML, 400, 535)
 
         document.getElementById("banner").src = c.toDataURL();
     }
