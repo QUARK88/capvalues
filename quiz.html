@@ -1,0 +1,146 @@
+<head>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
+<link href='style.css' rel='stylesheet' type='text/css'>
+<title>CapValues Quiz</title>
+<link rel="icon" type="x-icon" href="capicon.png">
+<link rel="shortcut icon" type="x-icon" href="capicon.png">
+<meta charset="utf-8">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-6511426299019766",
+    enable_page_level_ads: true
+  });
+</script>
+</head>
+<body>
+<script type="application/javascript"
+        src="questions.js">
+</script>
+<h1>CapValues</h1>
+<hr>
+<h2 style="text-align:center;" id="question-number">Loading...</h2>
+<p class="question" id="question-text"></p>
+<button class="button" onclick="next_question( 1.0)" style="background-color: #00c000;">Strongly Agree</button> <br>
+<button class="button" onclick="next_question( 0.5)" style="background-color: #00e000;">Agree</button> <br>
+<button class="button" onclick="next_question( 0.0)" style="background-color: #a0a0a0;">Neutral</button> <br>
+<button class="button" onclick="next_question(-0.5)" style="background-color: #e00000;">Disagree</button> <br>
+<button class="button" onclick="next_question(-1.0)" style="background-color: #c00000;">Strongly Disagree</button> <br>
+<button class="small_button" onclick="prev_question()" id="back_button">Back</button>
+<button class="small_button_off" id="back_button_off">Back</button><br>
+
+<!-- Website visit statistics - no personal information is collected! -->
+<script type="text/javascript">
+var sc_project=11325211;
+var sc_invisible=1;
+var sc_security="fd9f0659";
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="web stats"
+href="http://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="//c.statcounter.com/11325211/0/fd9f0659/1/" alt="web
+stats"></a></div></noscript>
+
+<!-- JavaScript for the test itself -->
+<script>
+    var max_econ, max_soci, max_poli, max_stat, max_indu; // Max possible scores
+    max_econ = max_soci = max_poli = max_stat = max_indu = 0;
+    var econ, soci, poli, stat, indu; // User's scores
+    econ = soci = poli = stat = indu = 0;
+    var qn = 0; // Question number
+    var prev_answer = null;
+    init_question();
+    for (var i = 0; i < questions.length; i++) {
+        max_econ += Math.abs(questions[i].effect.econ)
+        max_soci += Math.abs(questions[i].effect.soci)
+        max_poli += Math.abs(questions[i].effect.poli)
+        max_stat += Math.abs(questions[i].effect.stat)
+        max_indu += Math.abs(questions[i].effect.indu)
+        max_econ += Math.abs(questions[i].effect.land)
+        max_soci += Math.abs(questions[i].effect.reli)
+        max_poli += Math.abs(questions[i].effect.nati)
+        max_stat += Math.abs(questions[i].effect.inte)
+        max_indu += Math.abs(questions[i].effect.scie)
+        max_stat += Math.abs(questions[i].effect.elit)
+        max_indu += Math.abs(questions[i].effect.unit)
+    }
+    function init_question() {
+        document.getElementById("question-text").innerHTML = questions[qn].question;
+        document.getElementById("question-number").innerHTML = "Question " + (qn + 1) + " of " + (questions.length);
+        if (prev_answer == null) {
+            document.getElementById("back_button").style.display = 'none';
+            document.getElementById("back_button_off").style.display = 'block';
+        } else {
+            document.getElementById("back_button").style.display = 'block';
+            document.getElementById("back_button_off").style.display = 'none';
+        }
+
+    }
+
+    function next_question(mult) {
+        econ += mult*questions[qn].effect.econ
+        dipl += mult*questions[qn].effect.soci
+        govt += mult*questions[qn].effect.poli
+        scty += mult*questions[qn].effect.stat
+        scty += mult*questions[qn].effect.indu
+        econ += mult*questions[qn].effect.land
+        dipl += mult*questions[qn].effect.reli
+        govt += mult*questions[qn].effect.nati
+        scty += mult*questions[qn].effect.inte
+        scty += mult*questions[qn].effect.scie
+        scty += mult*questions[qn].effect.elit
+        scty += mult*questions[qn].effect.unit
+        qn++;
+        prev_answer = mult;
+        if (qn < questions.length) {
+            init_question();
+        } else {
+            results();
+        }
+    }
+    function prev_question() {
+        if (prev_answer == null) {
+            return;
+        }
+        qn--;
+        econ -= prev_answer * questions[qn].effect.econ;
+        soci -= prev_answer * questions[qn].effect.soci;
+        poli -= prev_answer * questions[qn].effect.poli;
+        stat -= prev_answer * questions[qn].effect.stat;
+        indu -= prev_answer * questions[qn].effect.indu;
+        land -= prev_answer * questions[qn].effect.land;
+        reli -= prev_answer * questions[qn].effect.reli;
+        nati -= prev_answer * questions[qn].effect.nati;
+        inte -= prev_answer * questions[qn].effect.inte;
+        scie -= prev_answer * questions[qn].effect.scie;
+        elit -= prev_answer * questions[qn].effect.elit;
+        unit -= prev_answer * questions[qn].effect.unit;
+        prev_answer = null;
+        init_question();
+
+    }
+    function calc_score(score,max) {
+        return (100*(max+score)/(2*max)).toFixed(1)
+    }
+    function results() {
+        location.href = `results.html`
+            + `?e=${calc_score(econ,max_econ)}`
+            + `&d=${calc_score(dipl,max_soci)}`
+            + `&g=${calc_score(govt,max_poli)}`
+            + `&s=${calc_score(scty,max_stat)}`
+            + `&s=${calc_score(scty,max_indu)}`
+            + `?e=${calc_score(econ,max_land)}`
+            + `&d=${calc_score(dipl,max_reli)}`
+            + `&g=${calc_score(govt,max_nati)}`
+            + `&s=${calc_score(scty,max_inte)}`
+            + `&s=${calc_score(scty,max_scie)}`
+            + `&s=${calc_score(scty,max_elit)}`
+            + `&s=${calc_score(scty,max_unit)}`
+    }
+</script>
+</body>
