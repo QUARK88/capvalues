@@ -21,11 +21,11 @@
 <hr>
 <h2 style="text-align:center;" id="question-number">Loading...</h2>
 <p class="question" id="question-text"></p>
-<button class="button" onclick="next_question( 1.0)" style="background-color: #00a000;">Strongly Agree</button> <br>
-<button class="button" onclick="next_question( 0.5)" style="background-color: #00c000;">Agree</button> <br>
-<button class="button" onclick="next_question( 0.0)" style="background-color: #757575;">Neutral</button> <br>
-<button class="button" onclick="next_question(-0.5)" style="background-color: #c00000;">Disagree</button> <br>
-<button class="button" onclick="next_question(-1.0)" style="background-color: #a00000;">Strongly Disagree</button> <br>
+<button class="button" onclick="next_question( 1.0)" style="background-color: #00c000;">Strongly Agree</button> <br>
+<button class="button" onclick="next_question( 0.5)" style="background-color: #00e000;">Agree</button> <br>
+<button class="button" onclick="next_question( 0.0)" style="background-color: #a0a0a0;">Neutral</button> <br>
+<button class="button" onclick="next_question(-0.5)" style="background-color: #e00000;">Disagree</button> <br>
+<button class="button" onclick="next_question(-1.0)" style="background-color: #c00000;">Strongly Disagree</button> <br>
 <button class="small_button" onclick="prev_question()" id="back_button">Back</button>
 <button class="small_button_off" id="back_button_off">Back</button><br>
 
@@ -48,26 +48,26 @@ stats"></a></div></noscript>
 
 <!-- JavaScript for the test itself -->
 <script>
-    var max_econ, max_soci, max_poli, max_stat, max_indu; // Max possible scores
-    max_econ = max_soci = max_poli = max_stat = max_indu = 0;
-    var econ, soci, poli, stat, indu; // User's scores
-    econ = soci = poli = stat = indu = 0;
+    var max_becon, max_bsoci, max_bpoli, max_bstat, max_bindu, max_bland, max_bnati, max_binte, max_bscie, max_belit, max_bunit; // Max possible scores
+    max_becon = max_bsoci = max_bpoli = max_bstat = max_bindu = max_bland = max_breli = max_bnati = max_binte = max_bscie = max_belit = max_bunit = 0;
+    var becon, bsoci, bpoli, bstat, bindu, bland, breli, bnati, binte, bscie, belit, bunit; // User's scores
+    becon = bsoci = bpoli = bstat = bindu = bland = breli = bnati = binte = bscie = belit = bunit = 0;
     var qn = 0; // Question number
     var prev_answer = null;
     init_question();
     for (var i = 0; i < questions.length; i++) {
-        max_econ += Math.abs(questions[i].effect.econ)
-        max_soci += Math.abs(questions[i].effect.soci)
-        max_poli += Math.abs(questions[i].effect.poli)
-        max_stat += Math.abs(questions[i].effect.stat)
-        max_indu += Math.abs(questions[i].effect.indu)
-        max_econ += Math.abs(questions[i].effect.land)
-        max_soci += Math.abs(questions[i].effect.reli)
-        max_poli += Math.abs(questions[i].effect.nati)
-        max_stat += Math.abs(questions[i].effect.inte)
-        max_indu += Math.abs(questions[i].effect.scie)
-        max_stat += Math.abs(questions[i].effect.elit)
-        max_indu += Math.abs(questions[i].effect.unit)
+        max_becon += Math.abs(questions[i].effect.becon)
+        max_bsoci += Math.abs(questions[i].effect.bsoci)
+        max_bpoli += Math.abs(questions[i].effect.bpoli)
+        max_bstat += Math.abs(questions[i].effect.bstat)
+        max_bindu += Math.abs(questions[i].effect.bindu)
+        max_bland += Math.abs(questions[i].effect.bland)
+        max_breli += Math.abs(questions[i].effect.breli)
+        max_bnati += Math.abs(questions[i].effect.bnati)
+        max_binte += Math.abs(questions[i].effect.binte)
+        max_bscie += Math.abs(questions[i].effect.bscie)
+        max_belit += Math.abs(questions[i].effect.belit)
+        max_bunit += Math.abs(questions[i].effect.bunit)
     }
     function init_question() {
         document.getElementById("question-text").innerHTML = questions[qn].question;
@@ -83,18 +83,18 @@ stats"></a></div></noscript>
     }
 
     function next_question(mult) {
-        econ += mult*questions[qn].effect.econ
-        dipl += mult*questions[qn].effect.soci
-        govt += mult*questions[qn].effect.poli
-        scty += mult*questions[qn].effect.stat
-        scty += mult*questions[qn].effect.indu
-        econ += mult*questions[qn].effect.land
-        dipl += mult*questions[qn].effect.reli
-        govt += mult*questions[qn].effect.nati
-        scty += mult*questions[qn].effect.inte
-        scty += mult*questions[qn].effect.scie
-        scty += mult*questions[qn].effect.elit
-        scty += mult*questions[qn].effect.unit
+        becon += mult*questions[qn].effect.becon
+        bsoci += mult*questions[qn].effect.bsoci
+        bpoli += mult*questions[qn].effect.bpoli
+        bstat += mult*questions[qn].effect.bstat
+        bindu += mult*questions[qn].effect.bindu
+        bland += mult*questions[qn].effect.bland
+        breli += mult*questions[qn].effect.breli
+        bnati += mult*questions[qn].effect.bnati
+        binte += mult*questions[qn].effect.binte
+        bscie += mult*questions[qn].effect.bscie
+        belit += mult*questions[qn].effect.belit
+        bunit += mult*questions[qn].effect.bunit
         qn++;
         prev_answer = mult;
         if (qn < questions.length) {
@@ -108,18 +108,18 @@ stats"></a></div></noscript>
             return;
         }
         qn--;
-        econ -= prev_answer * questions[qn].effect.econ;
-        soci -= prev_answer * questions[qn].effect.soci;
-        poli -= prev_answer * questions[qn].effect.poli;
-        stat -= prev_answer * questions[qn].effect.stat;
-        indu -= prev_answer * questions[qn].effect.indu;
-        land -= prev_answer * questions[qn].effect.land;
-        reli -= prev_answer * questions[qn].effect.reli;
-        nati -= prev_answer * questions[qn].effect.nati;
-        inte -= prev_answer * questions[qn].effect.inte;
-        scie -= prev_answer * questions[qn].effect.scie;
-        elit -= prev_answer * questions[qn].effect.elit;
-        unit -= prev_answer * questions[qn].effect.unit;
+        becon -= prev_answer * questions[qn].effect.becon;
+        bsoci -= prev_answer * questions[qn].effect.bsoci;
+        bpoli -= prev_answer * questions[qn].effect.bpoli;
+        bstat -= prev_answer * questions[qn].effect.bstat;
+        bindu -= prev_answer * questions[qn].effect.bindu;
+        bland -= prev_answer * questions[qn].effect.bland;
+        breli -= prev_answer * questions[qn].effect.breli;
+        bnati -= prev_answer * questions[qn].effect.bnati;
+        binte -= prev_answer * questions[qn].effect.binte;
+        bscie -= prev_answer * questions[qn].effect.bscie;
+        belit -= prev_answer * questions[qn].effect.belit;
+        bunit -= prev_answer * questions[qn].effect.bunit;
         prev_answer = null;
         init_question();
 
@@ -129,18 +129,18 @@ stats"></a></div></noscript>
     }
     function results() {
         location.href = `results.html`
-            + `?e=${calc_score(econ,max_econ)}`
-            + `&d=${calc_score(dipl,max_soci)}`
-            + `&g=${calc_score(govt,max_poli)}`
-            + `&s=${calc_score(scty,max_stat)}`
-            + `&s=${calc_score(scty,max_indu)}`
-            + `?e=${calc_score(econ,max_land)}`
-            + `&d=${calc_score(dipl,max_reli)}`
-            + `&g=${calc_score(govt,max_nati)}`
-            + `&s=${calc_score(scty,max_inte)}`
-            + `&s=${calc_score(scty,max_scie)}`
-            + `&s=${calc_score(scty,max_elit)}`
-            + `&s=${calc_score(scty,max_unit)}`
+            + `?e=${calc_score(econ,max_becon)}`
+            + `&d=${calc_score(dipl,max_bsoci)}`
+            + `&g=${calc_score(govt,max_bpoli)}`
+            + `&s=${calc_score(scty,max_bstat)}`
+            + `&s=${calc_score(scty,max_bindu)}`
+            + `?e=${calc_score(econ,max_bland)}`
+            + `&d=${calc_score(dipl,max_breli)}`
+            + `&g=${calc_score(govt,max_bnati)}`
+            + `&s=${calc_score(scty,max_binte)}`
+            + `&s=${calc_score(scty,max_bscie)}`
+            + `&s=${calc_score(scty,max_belit)}`
+            + `&s=${calc_score(scty,max_bunit)}`
     }
 </script>
 </body>
