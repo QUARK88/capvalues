@@ -15,5 +15,5 @@ questions = [
             "stat": 0,
             "indu": 0
         }
-    },
+    }
 ];
