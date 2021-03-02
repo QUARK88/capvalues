@@ -2,18 +2,1225 @@ questions = [
     {
         "question": ".",
         "effect": {
-            "econ": 0,
-            "soci": 0,
-            "poli": 0,
-            "stat": 0,
-            "indu": 0,
-            "land": 0,
-            "reli": 0,
-            "nati": 0,
-            "inte": 0,
-            "scie": 0,
-            "elit": 0,
-            "unit": 0
+            "becon": 10,
+            "bsoci": 0,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
         }
-    }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 10,
+            "bsoci": 0,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 10,
+            "bsoci": 0,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 10,
+            "bsoci": 0,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 10,
+            "bsoci": 0,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 10,
+            "bsoci": 0,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 10,
+            "bsoci": 0,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 10,
+            "bsoci": 0,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 10,
+            "bsoci": 0,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 10,
+            "bsoci": 0,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 10,
+            "bsoci": 0,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 10,
+            "bsoci": 0,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": -10,
+            "bsoci": 0,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": -10,
+            "bsoci": 0,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": -10,
+            "bsoci": 0,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": -10,
+            "bsoci": 0,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": -10,
+            "bsoci": 0,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": -10,
+            "bsoci": 0,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": -10,
+            "bsoci": 0,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": -10,
+            "bsoci": 0,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": -10,
+            "bsoci": 0,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": -10,
+            "bsoci": 0,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": -10,
+            "bsoci": 0,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": -10,
+            "bsoci": 0,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": 10,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": 10,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": 10,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": 10,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": 10,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": 10,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": 10,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": 10,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": 10,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": 10,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": 10,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": 10,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": -10,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": -10,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": -10,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": -10,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": -10,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": -10,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": -10,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": -10,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": -10,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": -10,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": -10,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": -10,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": 0,
+            "bpoli": 10,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": 0,
+            "bpoli": 10,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": 0,
+            "bpoli": 10,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": 0,
+            "bpoli": 10,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": 0,
+            "bpoli": 10,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": 0,
+            "bpoli": 10,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": 0,
+            "bpoli": 10,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": 0,
+            "bpoli": 10,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": 0,
+            "bpoli": 10,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": 0,
+            "bpoli": 10,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": 0,
+            "bpoli": 10,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": 0,
+            "bpoli": 10,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": 0,
+            "bpoli": -10,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": 0,
+            "bpoli": -10,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": 0,
+            "bpoli": -10,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": 0,
+            "bpoli": -10,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": 0,
+            "bpoli": -10,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": 0,
+            "bpoli": -10,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": 0,
+            "bpoli": -10,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": 0,
+            "bpoli": -10,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": 0,
+            "bpoli": -10,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": 0,
+            "bpoli": -10,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": 0,
+            "bpoli": -10,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": ".",
+        "effect": {
+            "becon": 0,
+            "bsoci": 0,
+            "bpoli": -10,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
 ];
