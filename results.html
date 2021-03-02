@@ -1,0 +1,370 @@
+<head>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
+<link href='style.css' rel='stylesheet' type='text/css'>
+<title>CapValues Results</title>
+<link rel="icon" type="x-icon" href="capicon.png">
+<link rel="shortcut icon" type="x-icon" href="capicon.png">
+<meta charset="utf-8">
+<script>
+  version = "CapValues" //Remember to update this before making changes to the test itself!
+</script>
+</head>
+<script type="application/javascript"
+        src="ideologies.js">
+</script>
+
+<body>
+<h1>CapValues</h1>
+<hr>
+
+<h1>Results</h1>
+
+<h2>Economic Axis: <span class="weight-300" id="becon"></span></h2>
+<div class="axis">
+    <img id="img-free" src="value_images/free market.png" height="128pt"/>
+    <div class="bar free" id="bar-free"><div class="text-wrapper" id="free"></div></div>
+    <div class="bar corp" id="bar-corp"><div class="text-wrapper" id="corp"></div></div>
+    <img id="img-corp" src="value_images/corporatism.png" height="128pt"/>
+</div>
+<h2>Social Axis: <span class="weight-300" id="bsoci"></span></h2>
+<div class="axis">
+    <img id="img-futu" src="value_images/futurism.png" height="128pt"/>
+    <div class="bar futu" id="bar-futu"><div class="text-wrapper" id="futu"></div></div>
+    <div class="bar cons" id="bar-cons"><div class="text-wrapper" id="cons"></div></div>
+    <img id="img-cons" src="value_images/conservatism.png" height="128pt"/>
+</div>
+<h2>Political Axis: <span class="weight-300" id="bpoli"></span></h2>
+<div class="axis">
+    <img id="img-auto" src="value_images/autocracy.png" height="128pt"/>
+    <div class="bar auto" id="bar-auto"><div class="text-wrapper" id="auto"></div></div>
+    <div class="bar demo" id="bar-demo"><div class="text-wrapper" id="demo"></div></div>
+    <img id="img-demo" src="value_images/democracy.png" height="128pt"/>
+</div>
+<h2>State Axis: <span class="weight-300" id="bstat"></span></h2>
+<div class="axis">
+    <img id="img-auth" src="value_images/authoritarian.png" height="128pt"/>
+    <div class="bar auth" id="bar-auth"><div class="text-wrapper" id="auth"></div></div>
+    <div class="bar libe" id="bar-libe"><div class="text-wrapper" id="libe"></div></div>
+    <img id="img-libe" src="value_images/libertarian.png" height="128pt"/>
+</div>
+<h2>Industry Axis: <span class="weight-300" id="bindu"></span></h2>
+<div class="axis">
+    <img id="img-envi" src="value_images/environment.png" height="128pt"/>
+    <div class="bar envi" id="bar-envi"><div class="text-wrapper" id="envi"></div></div>
+    <div class="bar prod" id="bar-prod"><div class="text-wrapper" id="prod"></div></div>
+    <img id="img-prod" src="value_images/productivism.png" height="128pt"/>
+</div>
+<h2>Land Axis: <span class="weight-300" id="bland"></span></h2>
+<div class="axis">
+    <img id="img-land" src="value_images/land rights.png" height="128pt"/>
+    <div class="bar land" id="bar-land"><div class="text-wrapper" id="land"></div></div>
+    <div class="bar geor" id="bar-geor"><div class="text-wrapper" id="geor"></div></div>
+    <img id="img-geor" src="value_images/georgism.png" height="128pt"/>
+</div>
+<h2>Religion Axis: <span class="weight-300" id="breli"></span></h2>
+<div class="axis">
+    <img id="img-anti" src="value_images/anti clerical.png" height="128pt"/>
+    <div class="bar anti" id="bar-anti"><div class="text-wrapper" id="anti"></div></div>
+    <div class="bar reli" id="bar-reli"><div class="text-wrapper" id="reli"></div></div>
+    <img id="img-reli" src="value_images/religious.png" height="128pt"/>
+</div>
+<h2>Nation Axis: <span class="weight-300" id="bnati"></span></h2>
+<div class="axis">
+    <img id="img-glob" src="value_images/globalism.png" height="128pt"/>
+    <div class="bar glob" id="bar-glob"><div class="text-wrapper" id="glob"></div></div>
+    <div class="bar nati" id="bar-nati"><div class="text-wrapper" id="nati"></div></div>
+    <img id="img-nati" src="value_images/nationalism.png" height="128pt"/>
+</div>
+<h2>Intervention Axis: <span class="weight-300" id="binte"></span></h2>
+<div class="axis">
+    <img id="img-inte" src="value_images/intervention.png" height="128pt"/>
+    <div class="bar inte" id="bar-inte"><div class="text-wrapper" id="inte"></div></div>
+    <div class="bar isol" id="bar-isol"><div class="text-wrapper" id="isol"></div></div>
+    <img id="img-isol" src="value_images/isolation.png" height="128pt"/>
+</div>
+<h2>Science Axis: <span class="weight-300" id="bscie"></span></h2>
+<div class="axis">
+    <img id="img-acce" src="value_images/acceleration.png" height="128pt"/>
+    <div class="bar acce" id="bar-acce"><div class="text-wrapper" id="acce"></div></div>
+    <div class="bar dece" id="bar-dece"><div class="text-wrapper" id="dece"></div></div>
+    <img id="img-dece" src="value_images/deceleration.png" height="128pt"/>
+</div>
+<h2>Elitism Axis: <span class="weight-300" id="belit"></span></h2>
+<div class="axis">
+    <img id="img-elit" src="value_images/elitism.png" height="128pt"/>
+    <div class="bar elit" id="bar-elit"><div class="text-wrapper" id="elit"></div></div>
+    <div class="bar popu" id="bar-popu"><div class="text-wrapper" id="popu"></div></div>
+    <img id="img-popu" src="value_images/populism.png" height="128pt"/>
+</div>
+<h2>Unity Axis: <span class="weight-300" id="bunit"></span></h2>
+<div class="axis">
+    <img id="img-disu" src="value_images/disunity.png" height="128pt"/>
+    <div class="bar disu" id="bar-disu"><div class="text-wrapper" id="disu"></div></div>
+    <div class="bar righ" id="bar-righ"><div class="text-wrapper" id="righ"></div></div>
+    <img id="img-righ" src="value_images/right unity.png" height="128pt"/>
+</div>
+<h2>Closest Match: <span class="weight-300" id="ideology-label"></span></h2>
+<p>There's no closest match for now, so cope with the axes lmao</p>
+<p>Criticism ? Questions ? Ideas ? Feel free to harass me on discord ( Quark#0741 ) or fill my spam box ( beaulieu.renaud@gmail.com ) . </p>
+<hr/>
+<img src="" id="banner">
+<button class="button" onclick="location.href='index.html';" style="background-color: #00b5ff;">Back</button> <br>
+<!-- Website visit statistics - no personal information is collected! -->
+<script type="text/javascript">
+var sc_project=11325211;
+var sc_invisible=1;
+var sc_security="fd9f0659";
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="web stats"
+href="http://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="//c.statcounter.com/11325211/0/fd9f0659/1/" alt="web
+stats"></a></div></noscript>
+<script>
+    function getQueryVariable(variable)
+    {
+           var query = window.location.search.substring(1)
+           var vars = query.split("&")
+           for (var i=0;i<vars.length;i++) {
+                   var pair = vars[i].split("=")
+                   if(pair[0] == variable) {return pair[1]}
+           }
+           return(NaN);
+    }
+
+    function setBarValue(name, value) {
+        innerel = document.getElementById(name)
+        outerel = document.getElementById("bar-" + name)
+        outerel.style.width = (value + "%")
+        innerel.innerHTML = (value + "%")
+        if (innerel.offsetWidth + 20 > outerel.offsetWidth) {
+            innerel.style.visibility = "hidden"
+        }
+    }
+
+    beconArray = ["Economic Chaos","Laissez Faire","Free Market","Neutral","Regulationism","Dirigisme","Corporatism"]
+    bsociArray = ["Revolutionarism","Progressivism","Reformism","Neutral","Conservatism","Traditionalism","Reactionarism"]
+    bpoliArray = ["Autocracy","Oligarchy","Bicameralism","Neutral","Representativism","Proportionalism","Direct Democracy"]
+    bstatArray = ["Totalitarianism","Authoritarianism","Statism","Neutral","Liberalism","Libertarianism","Minarchism"]
+    binduArray = ["Deep Ecologism","Environmentalism","Sustainabilitism","Neutral","Productivism","Industrialism","Unconcerned"]
+    blandArray = ["Common Land","Georgism","Land Value Tax","Neutral","Property Tax","Landed Property","Manorialism"]
+    breliArray = ["State Atheism","Atheism","Secularism","Neutral","Spiritualism","Religion","Theocracy"]
+    bnatiArray = ["Globalism","Internationalism","Diplomatism","Neutral","Patriotism","Nationalism","Chauvinism"]
+    binteArray = ["Colonialism","Imperialism","Interventionism","Neutral","Non Interventionism","Isolationism","Pacifism"]
+    bscieArray = ["Transhumanism","Accelerationism","Research","Neutral","Apprehension","Decelerationism","Primitivism"]
+    belitArray = ["Disconnected","Elitism","Establishment","Neutral","Appealing","Popular","Populism"]
+    bunitArray = ["Civil War","Enemies","Opposed","Neutral","Collaborative","Allied","United"]
+
+    function setLabel(val,ary) {
+        if (val > 100) { return "" } else
+        if (val > 90) { return ary[0] } else
+        if (val > 75) { return ary[1] } else
+        if (val > 60) { return ary[2] } else
+        if (val >= 40) { return ary[3] } else
+        if (val >= 25) { return ary[4] } else
+        if (val >= 10) { return ary[5] } else
+        if (val >= 0) { return ary[6] } else
+        	{return ""}
+    }
+
+    free = getQueryVariable("free")
+    futu = getQueryVariable("futu")
+    auto = getQueryVariable("auto")
+    auth = getQueryVariable("auth")
+    envi = getQueryVariable("envi")
+    land = getQueryVariable("land")
+    anti = getQueryVariable("anti")
+    glob = getQueryVariable("glob")
+    inte = getQueryVariable("inte")
+    acce = getQueryVariable("acce")
+    elit = getQueryVariable("elit")
+    disu = getQueryVariable("disu")
+    corp = (100 - free).toFixed(1)
+    cons = (100 - futu).toFixed(1)
+    demo = (100 - auto).toFixed(1)
+    libe = (100 - auth).toFixed(1)
+    prod = (100 - envi).toFixed(1)
+    geor = (100 - land).toFixed(1)
+    reli = (100 - anti).toFixed(1)
+    nati = (100 - glob).toFixed(1)
+    isol = (100 - inte).toFixed(1)
+    dece = (100 - acce).toFixed(1)
+    popu = (100 - elit).toFixed(1)
+    righ = (100 - disu).toFixed(1)
+
+    setBarValue("free", free)
+    setBarValue("corp", corp)
+    setBarValue("futu", futu)
+    setBarValue("cons", cons)
+    setBarValue("auto", auto)
+    setBarValue("demo", demo)
+    setBarValue("auth", auth)
+    setBarValue("libe", libe)
+    setBarValue("envi", envi)
+    setBarValue("prod", prod)
+    setBarValue("land", land)
+    setBarValue("geor", geor)
+    setBarValue("anti", anti)
+    setBarValue("reli", reli)
+    setBarValue("glob", glob)
+    setBarValue("nati", nati)
+    setBarValue("inte", inte)
+    setBarValue("isol", isol)
+    setBarValue("acce", acce)
+    setBarValue("dece", dece)
+    setBarValue("elit", elit)
+    setBarValue("popu", popu)
+    setBarValue("disu", disu)
+    setBarValue("righ", righ)
+
+    document.getElementById("becon").innerHTML = setLabel(free, beconArray)
+    document.getElementById("bsoci").innerHTML = setLabel(futu, bsociArray)
+    document.getElementById("bpoli").innerHTML = setLabel(auto, bpoliArray)
+    document.getElementById("bstat").innerHTML = setLabel(auth, bstatArray)
+    document.getElementById("bindu").innerHTML = setLabel(envi, binduArray)
+    document.getElementById("bland").innerHTML = setLabel(land, blandArray)
+    document.getElementById("breli").innerHTML = setLabel(anti, breliArray)
+    document.getElementById("bnati").innerHTML = setLabel(glob, bnatiArray)
+    document.getElementById("binte").innerHTML = setLabel(inte, binteArray)
+    document.getElementById("bscie").innerHTML = setLabel(acce, bscieArray)
+    document.getElementById("belit").innerHTML = setLabel(elit, belitArray)
+    document.getElementById("bunit").innerHTML = setLabel(disu, bunitArray)
+
+    ideology = ""
+    ideodist = Infinity
+    for (var i = 0; i < ideologies.length; i++) {
+        dist = 0
+        dist += Math.pow(Math.abs(ideologies[i].stats.becon - free), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.bsoci - futu), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.bpoli - auto), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.bstat - auth), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.bindu - envi), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.becon - land), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.bsoci - anti), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.bpoli - glob), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.bstat - inte), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.bindu - acce), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.bstat - elit), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.bindu - disu), 2)
+        if (dist < ideodist) {
+            ideology = ideologies[i].name
+            ideodist = dist
+        }
+    }
+    document.getElementById("ideology-label").innerHTML = ideology
+
+    function createImage(src, x, y, w, h) {
+        img = new Image ()
+        img.src = src
+        img.onLoad = function() {
+            ctx.drawImage(img, x, y, w, h)
+        }
+    }
+
+    window.onload = function() {
+        var c = document.createElement("canvas")
+        var ctx = c.getContext("2d")
+        c.width = 800;
+        c.height = 650;
+        ctx.fillStyle = "#e0e0e0"
+        ctx.fillRect(0,0,800,650);
+
+        img = document.getElementById("img-free")
+        ctx.drawImage(img, 20, 170, 100, 100);
+        img = document.getElementById("img-corp")
+        ctx.drawImage(img, 680, 170, 100, 100)
+        img = document.getElementById("img-futu")
+        ctx.drawImage(img, 20, 290, 100, 100)
+        img = document.getElementById("img-cons")
+        ctx.drawImage(img, 680, 290, 100, 100)
+        img = document.getElementById("img-auto")
+        ctx.drawImage(img, 20, 410, 100, 100)
+        img = document.getElementById("img-demo")
+        ctx.drawImage(img, 680, 410, 100, 100)
+        img = document.getElementById("img-auth")
+        ctx.drawImage(img, 20, 530, 100, 100)
+        img = document.getElementById("img-libe")
+        ctx.drawImage(img, 680, 530, 100, 100)
+        img = document.getElementById("img-land")
+        ctx.drawImage(img, 20, 170, 100, 100);
+        img = document.getElementById("img-geor")
+        ctx.drawImage(img, 680, 170, 100, 100)
+        img = document.getElementById("img-anti")
+        ctx.drawImage(img, 20, 290, 100, 100)
+        img = document.getElementById("img-reli")
+        ctx.drawImage(img, 680, 290, 100, 100)
+        img = document.getElementById("img-glob")
+        ctx.drawImage(img, 20, 410, 100, 100)
+        img = document.getElementById("img-nati")
+        ctx.drawImage(img, 680, 410, 100, 100)
+        img = document.getElementById("img-inte")
+        ctx.drawImage(img, 20, 530, 100, 100)
+        img = document.getElementById("img-isol")
+        ctx.drawImage(img, 680, 530, 100, 100)
+        img = document.getElementById("img-acce")
+        ctx.drawImage(img, 20, 530, 100, 100)
+        img = document.getElementById("img-dece")
+        ctx.drawImage(img, 680, 530, 100, 100)
+        img = document.getElementById("img-elit")
+        ctx.drawImage(img, 20, 530, 100, 100)
+        img = document.getElementById("img-popu")
+        ctx.drawImage(img, 680, 530, 100, 100)
+        img = document.getElementById("img-disu")
+        ctx.drawImage(img, 20, 530, 100, 100)
+        img = document.getElementById("img-righ")
+        ctx.drawImage(img, 680, 530, 100, 100)
+
+        ctx.fillStyle="#000000"
+        ctx.fillRect(120, 180, 560, 80)
+        ctx.fillRect(120, 300, 560, 80)
+        ctx.fillRect(120, 420, 560, 80)
+        ctx.fillRect(120, 540, 560, 80)
+        ctx.fillStyle="#757575"
+        ctx.fillRect(120, 184, 5.6*free-2, 72)
+        ctx.fillStyle="#00b5ff"
+        ctx.fillRect(682-5.6*corp, 184, 5.6*corp-2, 72)
+        ctx.fillStyle="#c00000"
+        ctx.fillRect(120, 304, 5.6*futu-2, 72)
+        ctx.fillStyle="#ffe000"
+        ctx.fillRect(682-5.6*cons, 304, 5.6*cons-2, 72)
+        ctx.fillStyle="#7500c0"
+        ctx.fillRect(120, 424, 5.6*auto-2, 72)
+        ctx.fillStyle="#75c000"
+        ctx.fillRect(682-5.6*demo, 424, 5.6*demo-2, 72)
+        ctx.fillStyle="#ff50a0"
+        ctx.fillRect(120, 544, 5.6*auth-2, 72)
+        ctx.fillStyle="#e07500"
+        ctx.fillRect(682-5.6*libe, 544, 5.6*libe-2, 72)
+        ctx.fillStyle="#000000"
+        ctx.font="700 60px Montserrat"
+        ctx.textAlign="left"
+        ctx.fillText("CapValues", 20, 90)
+        ctx.font="40px Montserrat"
+        ctx.fillText(ideology, 20, 140)
+
+        ctx.textAlign="left"
+        if (free > 30) {ctx.fillText(free + "%", 130, 237.5)}
+        if (futu > 30) {ctx.fillText(futu + "%", 130, 357.5)}
+        if (auto > 30) {ctx.fillText(auto + "%", 130, 477.5)}
+        if (auth > 30) {ctx.fillText(auth + "%", 130, 597.5)}
+        ctx.textAlign="right"
+        if (corp > 30) {ctx.fillText(corp + "%", 670, 237.5)}
+        if (cons > 30) {ctx.fillText(cons + "%", 670, 357.5)}
+        if (demo > 30) {ctx.fillText(demo + "%", 670, 477.5)}
+        if (libe > 30) {ctx.fillText(libe + "%", 670, 597.5)}
+
+        ctx.textAlign="center"
+        ctx.fillText("Economic Axis: " + document.getElementById("econ").innerHTML, 400, 175)
+        ctx.fillText("Social Axis: " + document.getElementById("soci").innerHTML, 400, 295)
+        ctx.fillText("Political Axis: " + document.getElementById("poli").innerHTML, 400, 415)
+        ctx.fillText("State Axis: " + document.getElementById("stat").innerHTML, 400, 535)
+
+        document.getElementById("banner").src = c.toDataURL();
+    }
+    </script>
+</body>
