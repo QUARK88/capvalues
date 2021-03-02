@@ -1222,5 +1222,5 @@ questions = [
             "belit": 0,
             "bunit": 0
         }
-    },
+    }
 ];
