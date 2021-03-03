@@ -19,11 +19,11 @@
 </script>
 <h1>CapValues</h1>
 <hr>
-<h2 style="text-align:center;" id="question-number">Loading...</h2>
+<h2 style="text-align:center;" id="question-number">It should appear</h2>
 <p class="question" id="question-text"></p>
 <button class="button" onclick="next_question( 1.0)" style="background-color: #00c000;">Strongly Agree</button> <br>
 <button class="button" onclick="next_question( 0.5)" style="background-color: #00e000;">Agree</button> <br>
-<button class="button" onclick="next_question( 0.0)" style="background-color: #a0a0a0;">Neutral</button> <br>
+<button class="button" onclick="next_question( 0.0)" style="background-color: #757575;">Neutral</button> <br>
 <button class="button" onclick="next_question(-0.5)" style="background-color: #e00000;">Disagree</button> <br>
 <button class="button" onclick="next_question(-1.0)" style="background-color: #c00000;">Strongly Disagree</button> <br>
 <button class="small_button" onclick="prev_question()" id="back_button">Back</button>
@@ -129,18 +129,18 @@ stats"></a></div></noscript>
     }
     function results() {
         location.href = `results.html`
-            + `?e=${calc_score(econ,max_becon)}`
-            + `&d=${calc_score(dipl,max_bsoci)}`
-            + `&g=${calc_score(govt,max_bpoli)}`
-            + `&s=${calc_score(scty,max_bstat)}`
-            + `&s=${calc_score(scty,max_bindu)}`
-            + `?e=${calc_score(econ,max_bland)}`
-            + `&d=${calc_score(dipl,max_breli)}`
-            + `&g=${calc_score(govt,max_bnati)}`
-            + `&s=${calc_score(scty,max_binte)}`
-            + `&s=${calc_score(scty,max_bscie)}`
-            + `&s=${calc_score(scty,max_belit)}`
-            + `&s=${calc_score(scty,max_bunit)}`
+            + `?free=${calc_score(becon,max_becon)}`
+            + `&futu=${calc_score(bsoci,max_bsoci)}`
+            + `&auto=${calc_score(bpoli,max_bpoli)}`
+            + `&auth=${calc_score(bstat,max_bstat)}`
+            + `&envi=${calc_score(bindu,max_bindu)}`
+            + `&land=${calc_score(bland,max_bland)}`
+            + `&anti=${calc_score(breli,max_breli)}`
+            + `&glob=${calc_score(bnati,max_bnati)}`
+            + `&inte=${calc_score(binte,max_binte)}`
+            + `&acce=${calc_score(bscie,max_bscie)}`
+            + `&elit=${calc_score(belit,max_belit)}`
+            + `&disu=${calc_score(bunit,max_bunit)}`
     }
 </script>
 </body>
