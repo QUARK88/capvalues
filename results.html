@@ -239,18 +239,18 @@ stats"></a></div></noscript>
     ideodist = Infinity
     for (var i = 0; i < ideologies.length; i++) {
         dist = 0
-        dist += Math.pow(Math.abs(ideologies[i].stats.becon - free), 4)
-        dist += Math.pow(Math.abs(ideologies[i].stats.bsoci - futu), 4)
-        dist += Math.pow(Math.abs(ideologies[i].stats.bpoli - auto), 4)
-        dist += Math.pow(Math.abs(ideologies[i].stats.bstat - auth), 3)
-        dist += Math.pow(Math.abs(ideologies[i].stats.bindu - envi), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.becon - land), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.bsoci - anti), 3)
-        dist += Math.pow(Math.abs(ideologies[i].stats.bpoli - glob), 4)
-        dist += Math.pow(Math.abs(ideologies[i].stats.bstat - inte), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.bindu - acce), 3)
-        dist += Math.pow(Math.abs(ideologies[i].stats.bstat - elit), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.bindu - disu), 2)
+        dist += Math.abs(ideologies[i].stats.becon - free)*5
+        dist += Math.abs(ideologies[i].stats.bsoci - futu)*4
+        dist += Math.abs(ideologies[i].stats.bpoli - auto)*4
+        dist += Math.abs(ideologies[i].stats.bstat - auth)*3
+        dist += Math.abs(ideologies[i].stats.bindu - envi)*2
+        dist += Math.abs(ideologies[i].stats.bland - land)*1
+        dist += Math.abs(ideologies[i].stats.breli - anti)*3
+        dist += Math.abs(ideologies[i].stats.bnati - glob)*4
+        dist += Math.abs(ideologies[i].stats.binte - inte)*2
+        dist += Math.abs(ideologies[i].stats.bscie - acce)*3
+        dist += Math.abs(ideologies[i].stats.belit - elit)*2
+        dist += Math.abs(ideologies[i].stats.bunit - disu)*1
         if (dist < ideodist) {
             ideology = ideologies[i].name
             ideodist = dist
@@ -270,9 +270,9 @@ stats"></a></div></noscript>
         var c = document.createElement("canvas")
         var ctx = c.getContext("2d")
         c.width = 800;
-        c.height = 650;
+        c.height = 1540;
         ctx.fillStyle = "#e0e0e0"
-        ctx.fillRect(0,0,800,650);
+        ctx.fillRect(0,0,800,1540);
 
         img = document.getElementById("img-free")
         ctx.drawImage(img, 20, 170, 100, 100);
@@ -291,33 +291,33 @@ stats"></a></div></noscript>
         img = document.getElementById("img-libe")
         ctx.drawImage(img, 680, 530, 100, 100)
         img = document.getElementById("img-land")
-        ctx.drawImage(img, 20, 170, 100, 100);
+        ctx.drawImage(img, 20, 650, 100, 100);
         img = document.getElementById("img-geor")
-        ctx.drawImage(img, 680, 170, 100, 100)
+        ctx.drawImage(img, 680, 650, 100, 100)
         img = document.getElementById("img-anti")
-        ctx.drawImage(img, 20, 290, 100, 100)
+        ctx.drawImage(img, 20, 770, 100, 100)
         img = document.getElementById("img-reli")
-        ctx.drawImage(img, 680, 290, 100, 100)
+        ctx.drawImage(img, 680, 770, 100, 100)
         img = document.getElementById("img-glob")
-        ctx.drawImage(img, 20, 410, 100, 100)
+        ctx.drawImage(img, 20, 890, 100, 100)
         img = document.getElementById("img-nati")
-        ctx.drawImage(img, 680, 410, 100, 100)
+        ctx.drawImage(img, 680, 890, 100, 100)
         img = document.getElementById("img-inte")
-        ctx.drawImage(img, 20, 530, 100, 100)
+        ctx.drawImage(img, 20, 1010, 100, 100)
         img = document.getElementById("img-isol")
-        ctx.drawImage(img, 680, 530, 100, 100)
+        ctx.drawImage(img, 680, 1010, 100, 100)
         img = document.getElementById("img-acce")
-        ctx.drawImage(img, 20, 530, 100, 100)
+        ctx.drawImage(img, 20, 1130, 100, 100)
         img = document.getElementById("img-dece")
-        ctx.drawImage(img, 680, 530, 100, 100)
+        ctx.drawImage(img, 680, 1130, 100, 100)
         img = document.getElementById("img-elit")
-        ctx.drawImage(img, 20, 530, 100, 100)
+        ctx.drawImage(img, 20, 1250, 100, 100)
         img = document.getElementById("img-popu")
-        ctx.drawImage(img, 680, 530, 100, 100)
+        ctx.drawImage(img, 680, 1250, 100, 100)
         img = document.getElementById("img-disu")
-        ctx.drawImage(img, 20, 530, 100, 100)
+        ctx.drawImage(img, 20, 1370, 100, 100)
         img = document.getElementById("img-righ")
-        ctx.drawImage(img, 680, 530, 100, 100)
+        ctx.drawImage(img, 680, 1370, 100, 100)
 
         ctx.fillStyle="#000000"
         ctx.fillRect(120, 180, 560, 80)
