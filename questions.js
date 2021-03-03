@@ -1530,7 +1530,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "I support environmental protections by the State or the community.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -1547,7 +1547,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "It is about time we pay our debt to the past by reclaiming the purity of its air, its waters, and our living environment.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -1564,7 +1564,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Preserving natural heritage should be a priority.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -1581,7 +1581,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Economic losses caused by  pollution prove that there is a sound economic side to environmentalism.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -1598,7 +1598,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Denying climate science is a stupid thing as it is supported by the vast majority of the scientific community.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -1615,7 +1615,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "We should keep our streets clean.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -1632,7 +1632,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "It is unacceptable that human action leads to extinction of certain species.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -1649,7 +1649,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Biodiversity should be mantained in agriculture.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -1666,7 +1666,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "We need to cut down on deforestation.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -1683,7 +1683,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Reductions in production are not acceptable, even if the environment benefits greatly from it.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -1700,7 +1700,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Humanity is superior to the environment and should exploit its resources as much as possible.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -1717,7 +1717,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Man made climate change is a myth.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -1734,7 +1734,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Organic products are worse in quality than normal ones.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -1751,7 +1751,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Environmental regulations harm businesses, and force them to  move the pollution in countries like China.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -1768,7 +1768,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "There is no need to cut down on meat, we can't change the environment as individuals.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -1785,7 +1785,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "The only way we can reduce the effects we cause on the environment is by taxing and banning everything, which is bad.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -1802,7 +1802,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Nuclear Energy is better than Solar & Wind.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -1819,7 +1819,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "We need to research on cleaner versions of fossil fuels instead of banning them all together.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -1836,7 +1836,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Land Value Taxes and Property Taxes are unjust forms of taxation.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -1853,7 +1853,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Whoever finds natural resources first should own them.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -1870,7 +1870,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Landlords provide their community better service with the provision of affordable housing than any public housing program ever would.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -1887,7 +1887,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Rent Control is a bad policy plan when it comes to housing, as it would make it less available.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -1904,7 +1904,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Landlords are the backbone of our community.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -1921,7 +1921,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Land Value Tax is the most efficient tax because it has no deadweight loss.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -1938,7 +1938,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Landlords provide nothing of value to the economy.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -1955,7 +1955,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Rent (by landlords) should be abolished. Instead, people should own their own housing.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -1972,7 +1972,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "The landlords… love to reap where they have never sowed, and demand a rent even for its natural produce.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -1989,7 +1989,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Being a landlord is not a valid job.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2006,7 +2006,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "I somewhat agree with the moral code of most religions.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2023,7 +2023,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Theocracy brings many benefits.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2040,7 +2040,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "The recent increase of depression is caused by the rise of Secularism and Atheism.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2057,7 +2057,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Religion should play a reduced role compared to now.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2074,7 +2074,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "The religious class has too many privileges.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2091,7 +2091,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Religion is just fiction for humans to develop.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2108,7 +2108,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "I support regional unions like the EU or ASEAN.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2125,7 +2125,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "A single world government would be ideal.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2142,7 +2142,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "The benefits of open borders would outweigh their cost.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2159,7 +2159,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Nationalism is an evil, selfish ideology.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2176,7 +2176,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Patriotism is an overrated quality, but it is tolerable so long as it does not hurt our goals.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2193,7 +2193,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "It makes no sense to be pride of one's nationality as no one has chosen it.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2210,7 +2210,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Our Government needs to be concerned about people outside our borders and those inside them equally.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2227,7 +2227,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Ius Soli is a better policy than Ius Sanguinis.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2244,7 +2244,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Challenges of our generation can be only be faced with a more United World.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2261,7 +2261,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Nationalism is not a justifiable policy.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2278,7 +2278,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "I see no nationality or race, only fellow human beings.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2295,7 +2295,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Nationalism is as obsolete today as state's rights were in 1860's USA.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2312,7 +2312,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "While I care about human life outside my country, our Government's focus should be on our own people.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2329,7 +2329,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "If welfare benefits have to exist, they should be restricted to natives.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2346,7 +2346,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "I love my country.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2363,7 +2363,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "We should put our Nation above all.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2380,7 +2380,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "The most important struggle today is between globalists and patriots.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2397,7 +2397,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Immigration should be restricted as we do not have enough resources for everyone.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2414,7 +2414,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Any agreement we take part in should give us some benefit.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2431,7 +2431,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "The European Union is obsolete.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2448,7 +2448,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "I find the flesh of the national flag simply moving.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2465,7 +2465,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Unlimited immigration leads to increased crime and human trafficking.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2482,7 +2482,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "I support irredentism of some sort.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2499,7 +2499,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "I would be willing to join our country's military if our country is being invaded by another one.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2516,7 +2516,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "We need to play an active role in foreign politics.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2533,7 +2533,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Countries that violate human rights should be toppled.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2550,7 +2550,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Using military to defend Nation's supply of oil is a good policy.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2567,7 +2567,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "The War on Iraq was a good idea.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2584,7 +2584,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Belonging to a military Alliance makes our country safer.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2601,7 +2601,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Instead of intervening in foreign wars we should focus on internal affairs.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2618,7 +2618,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "International Alliances are a waste of time.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2635,7 +2635,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Isolationism is an underrated philosophy.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2652,7 +2652,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Every coin spent on the military is a coin taken away from more productive uses in our economy.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2669,7 +2669,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Our Nation joining a military alliance sometimes makes wars far more likely.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2685,8 +2685,9 @@ questions = [
             "bunit": 0
         }
     },
+
     {
-        "question": ".",
+        "question": "We need to accelerate our technological progress.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2703,7 +2704,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Transhumanism isn't as radical as people think it is.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2720,7 +2721,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Technology is a good way to enhance human brain.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2737,7 +2738,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "We should champion farmers and rural areas.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2754,7 +2755,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Technological progress can be very dangerous for humanity.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2771,7 +2772,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Neo-luddites have many good ideas.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2788,7 +2789,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "I support an aristocratic elite as opposed to the dumb masses.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2805,7 +2806,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "The rise of populism in the Western World is very dangerous.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2822,7 +2823,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "I prefer an experienced leader to a popular one.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2839,7 +2840,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Right-Wing Populism is a great tool to appeal the masses while staying true to our values.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2856,7 +2857,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "There an elite of people that is trying to undermine the will of the populace, and that is bad.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2873,7 +2874,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "I hate the political establishment of my country.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2890,7 +2891,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "Libertarian Capitalists and Authoritarian Capitalists are too different to work together.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2907,7 +2908,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "I prefer authoritarian/libertarian unity, or cultural unity, as opposed to Right Unity.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2924,7 +2925,24 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "The ''right-wing'' is too broad to be united into an alliance.",
+        "effect": {
+            "becon": 0,
+            "bsoci": 0,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 10
+        }
+    },
+    {
+        "question": "I am willing to work with other right-wingers, even if they are on different ends of civil or cultural spectrums.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2941,7 +2959,7 @@ questions = [
         }
     },
     {
-        "question": ".",
+        "question": "I am even willing to work with right-wingers on the opposite side of the market spectrum.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
@@ -2957,4 +2975,21 @@ questions = [
             "bunit": -10
         }
     },
+    {
+        "question": "There should be an alliance of rightists to fight against socialism.",
+        "effect": {
+            "becon": 0,
+            "bsoci": 0,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": -10
+        }
+    }
 ];
