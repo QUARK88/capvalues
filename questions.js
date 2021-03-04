@@ -2006,57 +2006,6 @@ questions = [
         }
     },
     {
-        "question": "I somewhat agree with the moral code of most religions.",
-        "effect": {
-            "becon": 0,
-            "bsoci": 0,
-            "bpoli": 0,
-            "bstat": 0,
-            "bindu": 0,
-            "bland": 0,
-            "breli": 10,
-            "bnati": 0,
-            "binte": 0,
-            "bscie": 0,
-            "belit": 0,
-            "bunit": 0
-        }
-    },
-    {
-        "question": "Theocracy brings many benefits.",
-        "effect": {
-            "becon": 0,
-            "bsoci": 0,
-            "bpoli": 0,
-            "bstat": 0,
-            "bindu": 0,
-            "bland": 0,
-            "breli": 10,
-            "bnati": 0,
-            "binte": 0,
-            "bscie": 0,
-            "belit": 0,
-            "bunit": 0
-        }
-    },
-    {
-        "question": "The recent increase of depression is caused by the rise of Secularism and Atheism.",
-        "effect": {
-            "becon": 0,
-            "bsoci": 0,
-            "bpoli": 0,
-            "bstat": 0,
-            "bindu": 0,
-            "bland": 0,
-            "breli": 10,
-            "bnati": 0,
-            "binte": 0,
-            "bscie": 0,
-            "belit": 0,
-            "bunit": 0
-        }
-    },
-    {
         "question": "Religion should play a reduced role compared to now.",
         "effect": {
             "becon": 0,
@@ -2065,7 +2014,7 @@ questions = [
             "bstat": 0,
             "bindu": 0,
             "bland": 0,
-            "breli": -10,
+            "breli": 10,
             "bnati": 0,
             "binte": 0,
             "bscie": 0,
@@ -2082,7 +2031,7 @@ questions = [
             "bstat": 0,
             "bindu": 0,
             "bland": 0,
-            "breli": -10,
+            "breli": 10,
             "bnati": 0,
             "binte": 0,
             "bscie": 0,
@@ -2092,6 +2041,57 @@ questions = [
     },
     {
         "question": "Religion is just fiction for humans to develop.",
+        "effect": {
+            "becon": 0,
+            "bsoci": 0,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": 10,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": "I somewhat agree with the moral code of most religions.",
+        "effect": {
+            "becon": 0,
+            "bsoci": 0,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": -10,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": "Theocracy brings many benefits.",
+        "effect": {
+            "becon": 0,
+            "bsoci": 0,
+            "bpoli": 0,
+            "bstat": 0,
+            "bindu": 0,
+            "bland": 0,
+            "breli": -10,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 0,
+            "belit": 0,
+            "bunit": 0
+        }
+    },
+    {
+        "question": "The recent increase of depression is caused by the rise of Secularism and Atheism.",
         "effect": {
             "becon": 0,
             "bsoci": 0,
