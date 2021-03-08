@@ -49,5 +49,22 @@ ideologies = [
             "belit": 100,
             "bunit": 0
         }
+    },
+    {
+        "name": "Neonullism",
+        "stats": {
+            "becon": 100,
+            "bsoci": 85,
+            "bpoli": 100,
+            "bstat": 100,
+            "bindu": 20,
+            "bland": 0,
+            "breli": 100,
+            "bnati": 100,
+            "binte": 100,
+            "bscie": 100,
+            "belit": 100,
+            "bunit": 100
+        }
     }
 ];
