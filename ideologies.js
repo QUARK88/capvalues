@@ -66,5 +66,22 @@ ideologies = [
             "belit": 100,
             "bunit": 100
         }
+    },
+    {
+        "name": "Social Meritocracy",
+        "stats": {
+            "becon": 35,
+            "bsoci": 60,
+            "bpoli": 40,
+            "bstat": 60,
+            "bindu": 75,
+            "bland": 40,
+            "breli": 70,
+            "bnati": 55,
+            "binte": 70,
+            "bscie": 70,
+            "belit": 40,
+            "bunit": 55
+        }
     }
 ];
