@@ -100,5 +100,22 @@ ideologies = [
             "belit": 25,
             "bunit": 35
         }
+    },
+    {
+        "name": "Paternalistic Conservatism",
+        "stats": {
+            "becon": 25,
+            "bsoci": 25,
+            "bpoli": 35,
+            "bstat": 65,
+            "bindu": 50,
+            "bland": 75,
+            "breli": 10,
+            "bnati": 10,
+            "binte": 35,
+            "bscie": 30,
+            "belit": 25,
+            "bunit": 65
+        }
     }
 ];
