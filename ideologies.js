@@ -83,5 +83,22 @@ ideologies = [
             "belit": 40,
             "bunit": 55
         }
+    },
+    {
+        "name": "Hoppeanism",
+        "stats": {
+            "becon": 100,
+            "bsoci": 10,
+            "bpoli": 75,
+            "bstat": 20,
+            "bindu": 50,
+            "bland": 100,
+            "breli": 10,
+            "bnati": 10,
+            "binte": 10,
+            "bscie": 40,
+            "belit": 25,
+            "bunit": 35
+        }
     }
 ];
