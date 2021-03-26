@@ -117,5 +117,22 @@ ideologies = [
             "belit": 25,
             "bunit": 65
         }
+    },
+    {
+        "name": "One Nation Libertarianism",
+        "stats": {
+            "becon": 85,
+            "bsoci": 0,
+            "bpoli": 15,
+            "bstat": 15,
+            "bindu": 90,
+            "bland": 0,
+            "breli": 0,
+            "bnati": 0,
+            "binte": 0,
+            "bscie": 5,
+            "belit": 0,
+            "bunit": 0
+        }
     }
 ];
